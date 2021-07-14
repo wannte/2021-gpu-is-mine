@@ -12,7 +12,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      working-directory: ./backend
+      working-directory: ./back-end
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 8
